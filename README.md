@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+## About this App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React app is built to visualize multi-channel time series data using a live line chart.\
+It uses Javascript's FileReader and Canvas APIs to parse and render data from uploaded csv files.\
+It was designed to support a 128-channel device and can play incoming data at 75 frames per second.\
+The user has control over basic display elements such as the chart dimensions, playback speed, and line color.\
+Currently the core logic behind the app is sound, but there are some optimizations and bug fixes to be made.\
+
+Some next steps for the project include:
+1) Fix displayIndex bug which causes the current chunk to unload
+2) Increase Canvas render speed to support higher frame rates
+3) Optimize read operations by reading from .bin instead of .csv
+4) Reduce the number of hooks used by each component
+5) Integrate Javascript's WebSocket API to enable live data streaming
 
 ## Available Scripts
 
