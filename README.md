@@ -13,6 +13,10 @@ Some next steps for the project include:
 4) Reduce the number of hooks used by each component
 5) Integrate Javascript's WebSocket API to enable live data streaming
 
+##Creating test cases
+Running randomData.py will by default create a 32 gb test file called '32gb.csv' .\
+By changing the 'samplesPerPack' and 'numOfPacks' variable, users can customize the file size.
+
 ## Available Scripts
 
 In the project directory, you can run:
